@@ -1,0 +1,7 @@
+[package]
+name = "luaception-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mlua = { version = "0.8.*", features = ["lua54", "vendored"] }
